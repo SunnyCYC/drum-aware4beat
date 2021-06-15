@@ -6,7 +6,7 @@ This paper presents a novel system architecture that integrates blind source sep
 
 ## usage of this repo
 ### inference:
-* Pretrained models mentioned in the paper are provided in [pretrained_models]([https://](https://github.com/SunnyCYC/drum-aware4beat/tree/main/pretrained_models)). You may run Inference.py to see how it works on the assigned test song. 
+* Pretrained models mentioned in the paper are provided in [pretrained_models]((https://github.com/SunnyCYC/drum-aware4beat/tree/main/pretrained_models)). You may run Inference.py to see how it works on the assigned test song. 
 * To test on you own audio, replace the audio_file_path in inference.py with your test song path should work. 
 
 ### training with your own data:
