@@ -1,5 +1,4 @@
 # drum-aware4beat
-
 This repo contains the source codes for paper titled
 “Drum-Aware Ensemble Architecture for Improved Joint Musical Beat and Downbeat Tracking”.
 
@@ -12,7 +11,7 @@ This paper presents a novel system architecture that integrates blind source sep
 
 ### training with your own data:
 * dataset preparation:
-    * Note that this repo only include 10 songs from GTZAN [1] to demonstrate the usage. To train your model with more datasets, please see [this repo]([https://](https://github.com/SunnyCYC/aug4beat)) for how to organize the dataset folders and file names. 
+    * **Note that this repo only include 10 songs from GTZAN [1] to demonstrate the usage. You may directly run the training scripts (e.g. [train_DA1.py]([https://](https://github.com/SunnyCYC/drum-aware4beat/blob/main/train_DA1.py))) to see how it work.** To train your model with more datasets, please see [this repo]([https://](https://github.com/SunnyCYC/aug4beat)) for how to organize the dataset folders and file names. 
     * After uploading your datasets to datasets/original/ following the instructions, you may run the follow scripts to get training data prepared:
         * [traintest_split.py]([https://](https://github.com/SunnyCYC/aug4beat/blob/main/traintest_split.py))
         * [source_separation_aug4beat.py]([https://](https://github.com/SunnyCYC/aug4beat/blob/main/source_seperation_aug4beat.py))
