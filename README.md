@@ -1,7 +1,7 @@
 # drum-aware4beat
 This repo contains the source codes for paper titled
 “Drum-Aware Ensemble Architecture for Improved Joint Musical Beat and Downbeat Tracking”.
-| [**Paper (arXiv)**](https://arxiv.org/abs/2106.08685) | [**Github**](https://github.com/SunnyCYC/drum-aware4beat) | [**Pretrained Models (GoogleDrive)**](https://github.com/SunnyCYC/drum-aware4beat/tree/main/pretrained_models) |
+| [**Paper (arXiv)**](https://arxiv.org/abs/2106.08685) | [**Github**](https://github.com/SunnyCYC/drum-aware4beat) | [**Pretrained Models**](https://github.com/SunnyCYC/drum-aware4beat/tree/main/pretrained_models) |
 
 This paper presents a novel system architecture that integrates blind source separation with joint beat and downbeat tracking in musical audio signals. The source separation module segregates the percussive and non-percussive components of the input signal, over which beat and downbeat tracking are performed separately and then the results are aggregated with a learnable fusion mechanism. This way, the system can adaptively determine how much the tracking result for an input signal should depend on the input’s percussive or non-percussive components. Evaluation on four testing sets that feature different levels of presence of drum sounds shows that the new architecture consistently outperforms the widely-adopted baseline architecture that does not employ source separation.
 
